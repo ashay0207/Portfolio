@@ -1,0 +1,86 @@
+.portfolio{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* height: calc(100vh - 4rem); */
+    flex-direction: column;
+    /* padding: 20px; */
+}
+/* Styling for the grid container */
+.grid-container-portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 columns */
+    gap: 80px; 
+}
+
+/* Styling for the cards */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    position: relative;
+}
+.card img{
+    height: 250px;
+    width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.03); /* Scale up the card on hover for a subtle effect */
+}
+
+.card-content {
+    padding: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.card-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.card:hover .card-details {
+    opacity: 1; /* Show details on hover */
+}
+
+/* Additional details for your card, customize as needed */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-description {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+}
+
+/* Optionally, you can add more styles and customize the card further based on your project's design and branding. */
+
+@media (max-width: 768px) {
+    .grid-container-portfolio {
+        grid-template-columns: repeat(1, 1fr); /* 1 column on smaller screens */
+    }
+} 

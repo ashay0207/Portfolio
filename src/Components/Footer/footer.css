@@ -1,0 +1,74 @@
+.portfolio-footer {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .footer-contact,
+  .footer-social,
+  .footer-nav,
+  .footer-back-to-top,
+  .footer-copyright {
+    margin-bottom: 20px;
+  }
+  
+  .footer-contact h3,
+  .footer-social h3,
+  .footer-nav h3,
+  .footer-back-to-top h3,
+  .footer-copyright h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-nav ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-back-to-top a {
+    text-decoration: none;
+  }
+  
+  .footer-back-to-top a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-copyright p {
+    font-size: 14px;
+    
+  }
+  
