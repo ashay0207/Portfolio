@@ -36,7 +36,7 @@ const Resume = () => {
          </div></div>
       <div className="right-div">
         <div className="right-div-item"> <a href='https://tops-int.com/certificate/nsdc/ashay-0207 ' target="_blank"className='download-button'> Download Certificate </a></div>
-        <div className="right-div-item"><a href='' className='download-button' target="_blank"> Download CV </a></div>
+        <div className="right-div-item"><a href='https://acrobat.adobe.com/id/urn:aaid:sc:AP:fd755fea-6af8-4abc-b025-4e35ec05e5a2' className='download-button' target="_blank"> Download CV </a></div>
       </div>
     </div>
         
